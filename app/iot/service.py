@@ -41,8 +41,6 @@ class IOTService:
 
     async def run_program(self, program: list[Message]) -> None:
         print("=====RUNNING PROGRAM======")
-        # for msg in program:
-        # await asyncio.gather(self.send_msg(msg))
         for msg in program:
             await self.send_msg(msg)
         print("=====END OF PROGRAM======")
