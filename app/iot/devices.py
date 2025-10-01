@@ -1,6 +1,6 @@
 from asyncio import sleep
 
-from .message import MessageType
+from app.iot.message import MessageType
 
 
 TIME_TO_SLEEP = 0.5
